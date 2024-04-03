@@ -7,6 +7,7 @@ body{
 
 h1,h2,h3{
     color: var(--neutralPrincipal);
+    font-weight: 600;
 }
 
 h1{
@@ -42,7 +43,7 @@ header{
 
     picture{
         width: 152px;
-        margin-bottom: 76px;
+        margin-bottom: 60px;
 
         img{
             width: 100%;
@@ -54,6 +55,7 @@ header{
     }
     p{
         margin-bottom: 36px;
+        line-height: 24px;
     }
 
     div{
@@ -81,6 +83,47 @@ header{
             box-shadow: 0px 5px 5px 1px rgb(66, 79, 184);
             -webkit-box-shadow: 0px 5px 5px 1px rgb(66, 79, 184);
             -moz-box-shadow: 0px 5px 5px 1px rgb(66, 79, 184);
+        }
+    }
+}
+
+main{
+    padding: 0 28px;
+    text-align: center;
+
+    .keepSection{
+        margin-bottom: 160px;
+        
+        h2{
+            margin-bottom: 24px;
+        }
+        p{
+            line-height: 24px;
+            margin-bottom: 60px;
+        }
+        
+        article{
+
+            picture{
+                display: inline-block;
+                width: 300px;
+                margin-bottom: 60px;
+                img{
+                    width: 100%;
+                }
+            }
+
+            div{
+                .keepSection__quick{
+                    h3{
+                        margin-bottom: 16px;
+                    }
+                    p{
+                        line-height: 24px;
+                        margin-bottom: 40px;
+                    }
+                }
+            }
         }
     }
 }
