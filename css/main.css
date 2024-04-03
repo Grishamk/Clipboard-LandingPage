@@ -93,7 +93,7 @@ main{
 
     .keepSection{
         margin-bottom: 160px;
-        
+
         h2{
             margin-bottom: 24px;
         }
@@ -123,6 +123,69 @@ main{
                         margin-bottom: 40px;
                     }
                 }
+            }
+        }
+    }
+
+    .anyWhereSection{
+        margin-bottom: 160px;
+
+        h2{
+            margin-bottom: 24px;
+        }
+        p{
+            line-height: 24px;
+            margin-bottom: 60px;
+        }
+
+        picture{
+            width: 300px;
+
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+    .superChargeSection{
+        margin-bottom: 160px;
+
+        h2{
+            margin-bottom: 24px;
+        }
+        p{
+            line-height: 24px;
+            margin-bottom: 80px;
+        }
+
+        .superChargeSection__container{
+            margin-bottom: 124px;
+            .superChargeSection__article{
+                img{
+                    margin-bottom: 24px;
+                }
+                h3{
+                    margin-bottom: 18px;
+                }
+                p{
+                    line-height: 24px;
+                    margin-bottom: 48px;
+                }
+            }
+        }
+        
+        .superChargeSection__clients{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 60px;
+
+            picture{
+                width: 150px;
+
+                img{
+                    width: 100%
+                };
             }
         }
     }
