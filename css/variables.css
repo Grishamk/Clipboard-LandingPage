@@ -11,8 +11,10 @@
 
     /*TAMAÑO DE FUENTE*/
     --letraGrande: 3.2rem;
+    --letraGrandeD: 4rem;
     --letraMediana: 2.8rem;
     --letraNormal: 2.4rem;
+    --letraNormalD: 1.8rem;
     --letraSmall: 1.6rem;
 }
 
