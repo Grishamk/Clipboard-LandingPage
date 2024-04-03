@@ -1,5 +1,86 @@
 @import url(./variables.css);
 
 body{
+    font-size: var(--letraSmall);
+    color: var(--neutralSecundario);
+}
+
+h1,h2,h3{
+    color: var(--neutralPrincipal);
+}
+
+h1{
+    font-size: var(--letraGrande);
+}
+
+h2{
+    font-size: var(--letraMediana);
+}
+
+h3{
     font-size: var(--letraNormal);
+}
+
+img{
+    width: 50px;
+}
+
+header{
+    width: 100%;
+    background-image: url(/images/bg-header-mobile.png);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 24px;
+    padding-top: 152px;
+    margin-bottom: 160px;
+    
+
+    picture{
+        width: 152px;
+        margin-bottom: 76px;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    h1 {
+        margin-bottom: 24px;
+    }
+    p{
+        margin-bottom: 36px;
+    }
+
+    div{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        
+        button{
+            width: 316px;
+            height: 52px;
+            border: none;
+            border-radius: 50px;
+            color: white;
+            font-size: var(--letraNormal);
+        }
+
+        .button_1{
+            background: var(--colorPrincipal);
+            box-shadow: 0px 5px 5px 1px rgb(18, 105, 92);
+            -webkit-box-shadow: 0px 5px 5px 1px rgb(18, 105, 92);
+            -moz-box-shadow: 0px 5px 5px 1px rgb(18, 105, 92);
+        }
+        .button_2{
+            background: var(--colorSecundario);
+            box-shadow: 0px 5px 5px 1px rgb(66, 79, 184);
+            -webkit-box-shadow: 0px 5px 5px 1px rgb(66, 79, 184);
+            -moz-box-shadow: 0px 5px 5px 1px rgb(66, 79, 184);
+        }
+    }
 }
