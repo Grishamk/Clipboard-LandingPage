@@ -1,0 +1,28 @@
+:root{
+    /*Colores*/
+    /*COLORES PRIMARIOS*/
+    --colorPrincipal: hsl(171, 66%, 44%);
+    --colorSecundario: hsl(233, 100%, 69%);
+
+    /*Neutral*/
+    --neutralPrincipal: hsl(210, 10%, 33%);
+    --neutralSecundario: hsl(201, 11%, 66%);
+
+
+    /*TAMAÑO DE FUENTE*/
+    --letraGrande: 2.4rem;
+    --letraMediana: 1.8rem;
+    --letraNormal: 1.6rem;
+    --letraSmall: 1.4rem;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 62.5%;
+}
